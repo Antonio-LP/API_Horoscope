@@ -1,0 +1,247 @@
+{
+    "Date": "14/8/2023",
+    "Lenguages": [
+        {
+            "Id": "en",
+            "Signs": [
+                "Aries,Leo,Aquarius,Cancer,Gemini,Taurus,Capricorn,Libra,Virgo,Pisces,Sagittarius,Scorpio.."
+            ],
+            "WelcomeSplash": "Welcome..",
+            "PhraseSplash": "Unlock Your Fate: Embrace the Journey of Discovering Your Future..",
+            "MenuTitle": "Select Your Zodiac Sign..",
+            "MenuCaution": "Caution: Selecting your sign establishes a profound, mystical connection with your destiny. Once chosen, alterations are impossible—the stars shall illuminate your path, influencing every stride. Choose wisely, your sign wields significant sway over your choices...",
+            "LabelYoutube": "Your song of the day..",
+            "button1": "Generate my mystical song..",
+            "button2": "Aligning the stars...Click me Again..",
+            "button3": "Discover your magical song..",
+            "Horosoc": {
+                "Aries": {
+                    "PhraseSplashSelectSing": "Good Morning, Aries..",
+                    "BoredApi": "Go to a concert with local artists with some friends",
+                    "HorosocApi": "You could feel blocked, Aries, like you're in a trap. Perhaps your friends are influencing you into believing one thing, while your family has you trained to believe another. You wear different masks in different situations so you may have forgotten the real person underneath. Things are in conflict, and you may be forced to make important decisions. The truth is the only way to escape the trap."
+                },
+                "Leo": {
+                    "PhraseSplashSelectSing": "Good Morning, Leo..",
+                    "BoredApi": "Learn how to write in shorthand",
+                    "HorosocApi": "You may feel as if someone or something has just reformatted your hard drive, Leo. Suddenly things are running much more smoothly. The key now is to find the discipline and organization to understand this new system fully. Streamline your thoughts and be more efficient about how you use your energy. You'll be more effective overall if you can keep from scattering your resources."
+                },
+                "Aquarius": {
+                    "PhraseSplashSelectSing": "Good Morning, Aquarius..",
+                    "BoredApi": "Think of a new business idea",
+                    "HorosocApi": "The thing you dread the most could be the very thing you need the most in your life, Aquarius. You're at a point right now when the lessons that come might be hard to swallow, but they're necessary. Don't try to resist what you know you must face. Approach things with courage instead of fear and you can conquer anything. Once you climb the mountain, the rest is downhill."
+                },
+                "Cancer": {
+                    "PhraseSplashSelectSing": "Good Morning, Cancer..",
+                    "BoredApi": "Play a video game",
+                    "HorosocApi": "Your mastery of your mind and ability to stay disciplined about your goals is impressive, Cancer. Others recognize and appreciate your efforts much more than usual. You may be called upon to assist in some other project or someone else's emotional drama because you have the stability required to remedy the situation. Don't downplay your talent in this area."
+                },
+                "Gemini": {
+                    "PhraseSplashSelectSing": "Good Morning, Gemini..",
+                    "BoredApi": "Start a blog for something you're passionate about",
+                    "HorosocApi": "Deep inside you know the right thing to do, Gemini. Perhaps you just saw someone drop money on the ground and you picked it up. Do you return it or pocket it for yourself? You're likely to feel like you have the devil on one shoulder arguing with the angel on the other. It's important that you listen to the angel. Do what you know is right."
+                },
+                "Taurus": {
+                    "PhraseSplashSelectSing": "Good Morning, Taurus..",
+                    "BoredApi": "Learn about the Golden Ratio",
+                    "HorosocApi": "You pick up information quickly, Taurus. Someone only needs to explain something to you once for you to grasp the concept. Your questions are concise. No one can accuse you of not paying attention to his or her words or actions. At the same time, you may be too sensitive to the information around you. An overload of stimuli could eventually overwhelm you."
+                },
+                "Capricorn": {
+                    "PhraseSplashSelectSing": "Good Morning, Capricorn..",
+                    "BoredApi": "Research a topic you're interested in",
+                    "HorosocApi": "Your thinking may have emotional overtones that prevent you from seeing the truth clearly, Capricorn. Do your best to tame your feelings in order to let more rational thoughts rise to the surface. There's a stability that comes when you honor your emotions from a detached perspective instead of immediately taking action in response to how you feel. Think about this as you engage with others."
+                },
+                "Libra": {
+                    "PhraseSplashSelectSing": "Good Morning, Libra..",
+                    "BoredApi": "Organize your movie collection",
+                    "HorosocApi": "Your words will flow smoothly today, Libra, and you certainly won't lack things to say. Conversations about higher learning and greater spirituality are likely. You may be more aggressive when it comes to getting your opinion across, but that's good. It's important that you make your position known so others know where you stand. Together you can come up with something greater than you could alone."
+                },
+                "Virgo": {
+                    "PhraseSplashSelectSing": "Good Morning, Virgo..",
+                    "BoredApi": "Clean out your garage",
+                    "HorosocApi": "You may be forced to put your thoughts into neat little boxes that can be easily understood and processed, Virgo. Your ideas are abstract and don't always make reasonable sense. It's OK to have a bit of mystery about things that rational minds can't explain. Although you may feel like the goal is to arrange things in an orderly way, don't feel like you have to do it."
+                },
+                "Pisces": {
+                    "PhraseSplashSelectSing": "Good Morning, Pisces..",
+                    "BoredApi": "Paint the first thing you see",
+                    "HorosocApi": "You may look at your orderly closet, well-organized desk, and clean bathroom and be proud, Pisces. Other people may fret about suddenly having to get their lives in order, but you're already there. Perhaps you don't realize it because you're such a perfectionist. Perhaps you don't give yourself enough credit for all the work you do. Give yourself a pat on the back today."
+                },
+                "Sagittarius": {
+                    "PhraseSplashSelectSing": "Good Morning, Sagittarius..",
+                    "BoredApi": "Learn calligraphy",
+                    "HorosocApi": "Your thoughts may be strained, Sagittarius, and you could find it difficult to process things that are normally no problem. Try not to force answers that don't seem to want to come. If the information flows easily and smoothly, you will know that it's meant for you. If you have to pull teeth in order to get at the truth, you may need to back off."
+                },
+                "Scorpio": {
+                    "PhraseSplashSelectSing": "Good Morning, Scorpio..",
+                    "BoredApi": "Create a personal website",
+                    "HorosocApi": "There's tremendous discipline in your way of thinking, Scorpio, which is helping you advance toward your goals. Don't expect that you will solve every problem right away. Keep in mind that you will be able to sort through issues more efficiently. Once you have things sufficiently fleshed out, it will be easier to put the pieces back together. Stay detached instead of getting emotionally involved."
+                }
+            }
+        },
+        {
+            "Id": "es",
+            "Signs": [
+                "Aries, Leo, Acuario, Cáncer, Géminis, Tauro, Capricornio, Libra, Virgo, Piscis, Sagitario, Escorpio ..."
+            ],
+            "WelcomeSplash": "Bienvenido...",
+            "PhraseSplash": "Desbloquea tu destino: abraza el viaje de descubrir tu futuro ...",
+            "MenuTitle": "Seleccione su signo del zodiaco ...",
+            "MenuCaution": "PRECAUCIÓN: Seleccionar su signo establece una conexión profunda y mística con su destino. Una vez elegidos, las alteraciones son imposibles: las estrellas iluminarán su camino, influyendo en cada paso. Elija sabiamente, su signo ejerce una influencia significativa sobre sus elecciones ...",
+            "LabelYoutube": "Tu canción del día ...",
+            "button1": "Generar mi canción mística ...",
+            "button2": "Alineando las estrellas ... Haz clic de nuevo ...",
+            "button3": "Descubre tu canción mágica ...",
+            "Horosoc": {
+                "Aries": {
+                    "PhraseSplashSelectSing": "Buenos días, Aries ...",
+                    "BoredApi": "Complete un soporte de baloncesto.",
+                    "HorosocApi": "Podrías sentirte bloqueado, Aries, como si estuvieras en una trampa. Quizás sus amigos lo influyan en creer una cosa, mientras que su familia lo tiene entrenado para creer a otro. Usas máscaras diferentes en diferentes situaciones, por lo que es posible que hayas olvidado a la persona real debajo. Las cosas están en conflicto, y puede verse obligado a tomar decisiones importantes. La verdad es la única forma de escapar de la trampa."
+                },
+                "Leo": {
+                    "PhraseSplashSelectSing": "Buenos días, Leo ...",
+                    "BoredApi": "Hornee algo que nunca antes había probado.",
+                    "HorosocApi": "Puede sentir que alguien o algo ha reformateado su disco duro, Leo. De repente, las cosas funcionan mucho más suavemente. La clave ahora es encontrar la disciplina y la organización para comprender este nuevo sistema por completo. Agilice sus pensamientos y sea más eficiente sobre cómo usa su energía. Será más efectivo en general si puede evitar dispersar sus recursos."
+                },
+                "Aquarius": {
+                    "PhraseSplashSelectSing": "Buenos días, Acuario ...",
+                    "BoredApi": "Visite a sus maestros anteriores.",
+                    "HorosocApi": "Lo que más temes podría ser lo que más necesitas en tu vida, Acuario. Estás en un punto en este momento cuando las lecciones que vienen pueden ser difíciles de tragar, pero son necesarias. No intentes resistir lo que sabes que debes enfrentar. Abordar las cosas con coraje en lugar de miedo y puedes conquistar cualquier cosa. Una vez que subes la montaña, el resto es cuesta abajo."
+                },
+                "Cancer": {
+                    "PhraseSplashSelectSing": "Buenos días, cáncer ...",
+                    "BoredApi": "Escribe una nota de agradecimiento a alguien.",
+                    "HorosocApi": "Su dominio de su mente y capacidad para mantenerse disciplinados sobre sus objetivos es impresionante, el cáncer. Otros reconocen y aprecian sus esfuerzos mucho más de lo habitual. Es posible que se le solicite que ayude en algún otro proyecto o el drama emocional de otra persona porque tiene la estabilidad requerida para remediar la situación. No minimas tu talento en esta área."
+                },
+                "Gemini": {
+                    "PhraseSplashSelectSing": "Buenos días, Géminis ...",
+                    "BoredApi": "Tomar una siesta.",
+                    "HorosocApi": "En el fondo, sabes lo correcto, Géminis. Quizás acabas de ver a alguien caer dinero en el suelo y lo recogiste. ¿Lo devuelven o lo bolsas por ti mismo? Es probable que sientas que tienes al diablo en un hombro discutiendo con el ángel en el otro. Es importante que escuches al ángel. Haz lo que sabes es correcto .."
+                },
+                "Taurus": {
+                    "PhraseSplashSelectSing": "Buenos días, Tauro ...",
+                    "BoredApi": "Desinstale aplicaciones no utilizadas de sus dispositivos.",
+                    "HorosocApi": "Recoge información rápidamente, Tauro. Alguien solo necesita explicarle algo una vez para que comprenda el concepto. Sus preguntas son concisas. Nadie puede acusarlo de no prestar atención a sus palabras o acciones. Al mismo tiempo, puede ser demasiado sensible a la información a su alrededor. Una sobrecarga de estímulos eventualmente podría abrumarte ..."
+                },
+                "Capricorn": {
+                    "PhraseSplashSelectSing": "Buenos días, Capricornio ...",
+                    "BoredApi": "Comience un blog por algo que le apasione.",
+                    "HorosocApi": "Su pensamiento puede tener matices emocionales que le impidan ver la verdad claramente, Capricornio. Haga todo lo posible para domar sus sentimientos para dejar que los pensamientos más racionales salgan a la superficie. Hay una estabilidad que viene cuando honras tus emociones desde una perspectiva separada en lugar de tomar medidas inmediatamente en respuesta a cómo te sientes. Piense en esto mientras se relaciona con los demás."
+                },
+                "Libra": {
+                    "PhraseSplashSelectSing": "Buenos días, Libra ...",
+                    "BoredApi": "Dibuja algo interesante.",
+                    "HorosocApi": "Tus palabras fluirán suavemente hoy, Libra, y ciertamente no te falta cosas que decir. Es probable que las conversaciones sobre el aprendizaje superior y la mayor espiritualidad. Puede ser más agresivo cuando se trata de transmitir su opinión, pero eso es bueno. Es importante que sepa su posición para que otros sepan dónde se encuentra. Juntos puedes encontrar algo más grande de lo que podrías solo."
+                },
+                "Virgo": {
+                    "PhraseSplashSelectSing": "Buenos días, Virgo ...",
+                    "BoredApi": "Ve a ver una producción de Broadway.",
+                    "HorosocApi": "Es posible que se vea obligado a poner sus pensamientos en pequeñas cajas ordenadas que se pueden entender y procesar fácilmente, Virgo. Sus ideas son abstractas y no siempre tienen sentido razonable. Está bien tener un poco de misterio sobre las cosas que las mentes racionales no pueden explicar. Aunque puede sentir que el objetivo es organizar las cosas de manera ordenada, no sienta que tiene que hacerlo ..."
+                },
+                "Pisces": {
+                    "PhraseSplashSelectSing": "Buenos días, Piscis ...",
+                    "BoredApi": "Mire una conferencia de la Academia Khan sobre un tema de su elección.",
+                    "HorosocApi": "Puede mirar su armario ordenado, escritorio bien organizado y baño limpio y estar orgulloso, Piscis. Otras personas pueden preocuparse por tener en orden de repente sus vidas, pero ya estás allí. Quizás no te das cuenta porque eres tan perfeccionista. Quizás no se dé suficiente crédito por todo el trabajo que realiza. Date una palmadita en la espalda hoy."
+                },
+                "Sagittarius": {
+                    "PhraseSplashSelectSing": "Buenos días, Sagitario ...",
+                    "BoredApi": "Mire una conferencia de la Academia Khan sobre un tema de su elección.",
+                    "HorosocApi": "Sus pensamientos pueden ser tensos, Sagitario, y puede encontrar difícil procesar cosas que normalmente no son problemas. Trate de no forzar respuestas que no parecen querer venir. Si la información fluye de manera fácil y suave, sabrá que está destinado a usted. Si tiene que tirar los dientes para llegar a la verdad, es posible que deba retroceder ..."
+                },
+                "Scorpio": {
+                    "PhraseSplashSelectSing": "Buenos días, Scorpio ...",
+                    "BoredApi": "Aprenda cómo funciona Internet.",
+                    "HorosocApi": "Hay una tremenda disciplina en su forma de pensar, Scorpio, que le está ayudando a avanzar hacia sus objetivos. No espere que resuelva todos los problemas de inmediato. Tenga en cuenta que podrá clasificar los problemas de manera más eficiente. Una vez que tenga las cosas lo suficientemente desarrolladas, será más fácil volver a armar las piezas. Manténgase separado en lugar de involucrarse emocionalmente."
+                }
+            }
+        },
+        {
+            "Id": "zh",
+            "Signs": [
+                "Aries, Leo, Acuario, Cáncer, Géminis, Tauro, Capricornio, Libra, Virgo, Piscis, Sagitario, Escorpio ..."
+            ],
+            "WelcomeSplash": "Bienvenido...",
+            "PhraseSplash": "Desbloquea tu destino: abraza el viaje de descubrir tu futuro ...",
+            "MenuTitle": "Seleccione su signo del zodiaco ...",
+            "MenuCaution": "PRECAUCIÓN: Seleccionar su signo establece una conexión profunda y mística con su destino. Una vez elegidos, las alteraciones son imposibles: las estrellas iluminarán su camino, influyendo en cada paso. Elija sabiamente, su signo ejerce una influencia significativa sobre sus elecciones ...",
+            "LabelYoutube": "Tu canción del día ...",
+            "button1": "Generar mi canción mística ...",
+            "button2": "Alineando las estrellas ... Haz clic de nuevo ...",
+            "button3": "Descubre tu canción mágica ...",
+            "Horosoc": {
+                "Aries": {
+                    "PhraseSplashSelectSing": "Buenos días, Aries ...",
+                    "BoredApi": "Complete un soporte de baloncesto.",
+                    "HorosocApi": "Podrías sentirte bloqueado, Aries, como si estuvieras en una trampa. Quizás sus amigos lo influyan en creer una cosa, mientras que su familia lo tiene entrenado para creer a otro. Usas máscaras diferentes en diferentes situaciones, por lo que es posible que hayas olvidado a la persona real debajo. Las cosas están en conflicto, y puede verse obligado a tomar decisiones importantes. La verdad es la única forma de escapar de la trampa."
+                },
+                "Leo": {
+                    "PhraseSplashSelectSing": "Buenos días, Leo ...",
+                    "BoredApi": "Hornee algo que nunca antes había probado.",
+                    "HorosocApi": "Puede sentir que alguien o algo ha reformateado su disco duro, Leo. De repente, las cosas funcionan mucho más suavemente. La clave ahora es encontrar la disciplina y la organización para comprender este nuevo sistema por completo. Agilice sus pensamientos y sea más eficiente sobre cómo usa su energía. Será más efectivo en general si puede evitar dispersar sus recursos."
+                },
+                "Aquarius": {
+                    "PhraseSplashSelectSing": "Buenos días, Acuario ...",
+                    "BoredApi": "Visite a sus maestros anteriores.",
+                    "HorosocApi": "Lo que más temes podría ser lo que más necesitas en tu vida, Acuario. Estás en un punto en este momento cuando las lecciones que vienen pueden ser difíciles de tragar, pero son necesarias. No intentes resistir lo que sabes que debes enfrentar. Abordar las cosas con coraje en lugar de miedo y puedes conquistar cualquier cosa. Una vez que subes la montaña, el resto es cuesta abajo."
+                },
+                "Cancer": {
+                    "PhraseSplashSelectSing": "Buenos días, cáncer ...",
+                    "BoredApi": "Escribe una nota de agradecimiento a alguien.",
+                    "HorosocApi": "Su dominio de su mente y capacidad para mantenerse disciplinados sobre sus objetivos es impresionante, el cáncer. Otros reconocen y aprecian sus esfuerzos mucho más de lo habitual. Es posible que se le solicite que ayude en algún otro proyecto o el drama emocional de otra persona porque tiene la estabilidad requerida para remediar la situación. No minimas tu talento en esta área."
+                },
+                "Gemini": {
+                    "PhraseSplashSelectSing": "Buenos días, Géminis ...",
+                    "BoredApi": "Tomar una siesta.",
+                    "HorosocApi": "En el fondo, sabes lo correcto, Géminis. Quizás acabas de ver a alguien caer dinero en el suelo y lo recogiste. ¿Lo devuelven o lo bolsas por ti mismo? Es probable que sientas que tienes al diablo en un hombro discutiendo con el ángel en el otro. Es importante que escuches al ángel. Haz lo que sabes es correcto .."
+                },
+                "Taurus": {
+                    "PhraseSplashSelectSing": "Buenos días, Tauro ...",
+                    "BoredApi": "Desinstale aplicaciones no utilizadas de sus dispositivos.",
+                    "HorosocApi": "Recoge información rápidamente, Tauro. Alguien solo necesita explicarle algo una vez para que comprenda el concepto. Sus preguntas son concisas. Nadie puede acusarlo de no prestar atención a sus palabras o acciones. Al mismo tiempo, puede ser demasiado sensible a la información a su alrededor. Una sobrecarga de estímulos eventualmente podría abrumarte ..."
+                },
+                "Capricorn": {
+                    "PhraseSplashSelectSing": "Buenos días, Capricornio ...",
+                    "BoredApi": "Comience un blog por algo que le apasione.",
+                    "HorosocApi": "Su pensamiento puede tener matices emocionales que le impidan ver la verdad claramente, Capricornio. Haga todo lo posible para domar sus sentimientos para dejar que los pensamientos más racionales salgan a la superficie. Hay una estabilidad que viene cuando honras tus emociones desde una perspectiva separada en lugar de tomar medidas inmediatamente en respuesta a cómo te sientes. Piense en esto mientras se relaciona con los demás."
+                },
+                "Libra": {
+                    "PhraseSplashSelectSing": "Buenos días, Libra ...",
+                    "BoredApi": "Dibuja algo interesante.",
+                    "HorosocApi": "Tus palabras fluirán suavemente hoy, Libra, y ciertamente no te falta cosas que decir. Es probable que las conversaciones sobre el aprendizaje superior y la mayor espiritualidad. Puede ser más agresivo cuando se trata de transmitir su opinión, pero eso es bueno. Es importante que sepa su posición para que otros sepan dónde se encuentra. Juntos puedes encontrar algo más grande de lo que podrías solo."
+                },
+                "Virgo": {
+                    "PhraseSplashSelectSing": "Buenos días, Virgo ...",
+                    "BoredApi": "Ve a ver una producción de Broadway.",
+                    "HorosocApi": "Es posible que se vea obligado a poner sus pensamientos en pequeñas cajas ordenadas que se pueden entender y procesar fácilmente, Virgo. Sus ideas son abstractas y no siempre tienen sentido razonable. Está bien tener un poco de misterio sobre las cosas que las mentes racionales no pueden explicar. Aunque puede sentir que el objetivo es organizar las cosas de manera ordenada, no sienta que tiene que hacerlo ..."
+                },
+                "Pisces": {
+                    "PhraseSplashSelectSing": "Buenos días, Piscis ...",
+                    "BoredApi": "Mire una conferencia de la Academia Khan sobre un tema de su elección.",
+                    "HorosocApi": "Puede mirar su armario ordenado, escritorio bien organizado y baño limpio y estar orgulloso, Piscis. Otras personas pueden preocuparse por tener en orden de repente sus vidas, pero ya estás allí. Quizás no te das cuenta porque eres tan perfeccionista. Quizás no se dé suficiente crédito por todo el trabajo que realiza. Date una palmadita en la espalda hoy."
+                },
+                "Sagittarius": {
+                    "PhraseSplashSelectSing": "Buenos días, Sagitario ...",
+                    "BoredApi": "Mire una conferencia de la Academia Khan sobre un tema de su elección.",
+                    "HorosocApi": "Sus pensamientos pueden ser tensos, Sagitario, y puede encontrar difícil procesar cosas que normalmente no son problemas. Trate de no forzar respuestas que no parecen querer venir. Si la información fluye de manera fácil y suave, sabrá que está destinado a usted. Si tiene que tirar los dientes para llegar a la verdad, es posible que deba retroceder ..."
+                },
+                "Scorpio": {
+                    "PhraseSplashSelectSing": "Buenos días, Scorpio ...",
+                    "BoredApi": "Aprenda cómo funciona Internet.",
+                    "HorosocApi": "Hay una tremenda disciplina en su forma de pensar, Scorpio, que le está ayudando a avanzar hacia sus objetivos. No espere que resuelva todos los problemas de inmediato. Tenga en cuenta que podrá clasificar los problemas de manera más eficiente. Una vez que tenga las cosas lo suficientemente desarrolladas, será más fácil volver a armar las piezas. Manténgase separado en lugar de involucrarse emocionalmente."
+                }
+            }
+        }
+    ],
+    "Links": {
+        "Aries": "https://www.youtube.com/embed/?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI&index=152",
+        "Leo": "https://www.youtube.com/embed/?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI&index=125",
+        "Aquarius": "https://www.youtube.com/embed/?list=PL55713C70BA91BD6E&index=120",
+        "Cancer": "https://www.youtube.com/embed/?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI&index=17",
+        "Gemini": "https://www.youtube.com/embed/?list=PL15B1E77BB5708555&index=98",
+        "Taurus": "https://www.youtube.com/embed/?list=PL55713C70BA91BD6E&index=128",
+        "Capricorn": "https://www.youtube.com/embed/?list=PLKUUojYv3TNcKHVVU_rBBXcGEfsd2ITVF&index=10",
+        "Libra": "https://www.youtube.com/embed/?list=PLFgquLnL59akA2PflFpeQG9L01VFg90wS&index=96",
+        "Virgo": "https://www.youtube.com/embed/?list=PL15B1E77BB5708555&index=40",
+        "Pisces": "https://www.youtube.com/embed/?list=PLKUUojYv3TNcKHVVU_rBBXcGEfsd2ITVF&index=19",
+        "Sagittarius": "https://www.youtube.com/embed/?list=PLKUUojYv3TNcKHVVU_rBBXcGEfsd2ITVF&index=58",
+        "Scorpio": "https://www.youtube.com/embed/?list=PLKUUojYv3TNcKHVVU_rBBXcGEfsd2ITVF&index=79"
+    }
+}
