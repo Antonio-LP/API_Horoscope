@@ -73,8 +73,8 @@ async function TraducirIdiomas() {
         }
     })
 
-    const textTotrans = textBase.join('.\n');
-    const textAPIsToTrans = textsAPIs.join('.\n')
+    const textTotrans = textBase.join('\n');
+    const textAPIsToTrans = textsAPIs.join('\n')
 
     for (const idiom of list_lenguages) {
         const filtre = await Translated(encodeURI(textTotrans), idiom);
@@ -165,7 +165,7 @@ async function TraducirIdiomas() {
         jsonData.Lenguages = jsonData.Lenguages.filter(language => language.Id !== idiom);
 
         jsonData.Lenguages.push(b); 
-        // console.log(idiom) 
+        console.log(idiom) 
     };
     
     // console.log("f")
