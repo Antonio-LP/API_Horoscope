@@ -2,52 +2,52 @@ import { Translated } from "../services/translated.js";
 // import jsonData from "../resources/api.json" assert { type: "json" };
 import { setURL } from "./youtube-music.js";
 import axios from "axios";
-import fs from "fs"; 
+import fs from "fs";
 
 let jsonData = {};
 const list_lenguages =
-[ 
-    "es", // Español
-    "zh", // Chino
-    "hi", // Hindi
-    "ar", // Árabe 
-    "pt", // Portugués
-    "bn", // Bengalí
-    "ru", // Ruso
-    "ja", // Japonés
-    "pa", // Punjabi
-    "de", // Alemán
-    "jv", // Javanés
-    "ms", // Malayo
-    "ko", // Coreano
-    "fr", // Francés
-    "te", // Telugu
-    "vi", // Vietnamita
-    "ta", // Tamil
-    "it", // Italiano
-    "tr", // Turco
-];
+    [
+        "es", // Español
+        // "zh", // Chino
+        "hi", // Hindi
+        "ar", // Árabe 
+        "pt", // Portugués
+        "bn", // Bengalí
+        "ru", // Ruso
+        "ja", // Japonés
+        "pa", // Punjabi
+        "de", // Alemán
+        // "jv", // Javanés
+        "ms", // Malayo
+        "ko", // Coreano
+        "fr", // Francés
+        "te", // Telugu
+        "vi", // Vietnamita
+        "ta", // Tamil
+        "it", // Italiano
+        "tr", // Turco
+    ];
 
 let dateA;
 let dateB;
 
-function AsignarRandomYoutubeLinks(){
-        jsonData.Links.Aries = setURL();
-        jsonData.Links.Leo = setURL();
-        jsonData.Links.Aquarius = setURL();
-        jsonData.Links.Sagittarius = setURL();
+function AsignarRandomYoutubeLinks() {
+    jsonData.Links.Aries = setURL();
+    jsonData.Links.Leo = setURL();
+    jsonData.Links.Aquarius = setURL();
+    jsonData.Links.Sagittarius = setURL();
 
-        jsonData.Links.Cancer = setURL();
-        jsonData.Links.Capricorn = setURL();
-        jsonData.Links.Libra = setURL();
-        jsonData.Links.Taurus = setURL();
+    jsonData.Links.Cancer = setURL();
+    jsonData.Links.Capricorn = setURL();
+    jsonData.Links.Libra = setURL();
+    jsonData.Links.Taurus = setURL();
 
-        jsonData.Links.Scorpio = setURL();
-        jsonData.Links.Pisces = setURL();
-        jsonData.Links.Gemini = setURL();
-        jsonData.Links.Virgo = setURL();
+    jsonData.Links.Scorpio = setURL();
+    jsonData.Links.Pisces = setURL();
+    jsonData.Links.Gemini = setURL();
+    jsonData.Links.Virgo = setURL();
 }
- 
+
 async function TraducirIdiomas() {
 
     jsonData.Date = dateB
@@ -60,27 +60,21 @@ async function TraducirIdiomas() {
         if (key != "Id" && key != "Horosoc")
             textBase.push(value)
         if (key == "Horosoc") {
-            Object.values(value).map((val, i) =>
-
-                Object.values(val).map((subval) => {
-                    if (i < 4)
-                        textBase.push(subval)
-                    else
-                        textsAPIs.push(subval)
-                }
+            Object.values(value)
+                .map((val) => Object.values(val)
+                    .map((subval) => textsAPIs.push(subval))
                 )
-            )
         }
     })
 
-    const textTotrans = textBase.join('\n');
-    const textAPIsToTrans = textsAPIs.join('\n')
+    const textBaseTotrans = textBase.join('---%0A');
+    const textAPIsToTrans = textsAPIs.join('---%0A')
 
     for (const idiom of list_lenguages) {
-        const filtre = await Translated(encodeURI(textTotrans), idiom);
-
-        const hosrosTrasn = await Translated(encodeURI(textAPIsToTrans), idiom);
-
+        const filtre = await Translated(textBaseTotrans, idiom);
+        const hosrosTrasn = await Translated(textAPIsToTrans, idiom);
+        // console.log(hosrosTrasn)
+        // return
         const b = {
             "Id": idiom,
             "Signs": [
@@ -96,78 +90,27 @@ async function TraducirIdiomas() {
             "button3": filtre.at(8),
             "Horosoc": {}
         }
+        const d = {};
+        const signsString = jsonData.Lenguages[0].Signs[0];
+        const signArray = signsString.split(',');
 
-        const d = {
-            "Aries": {
-                "PhraseSplashSelectSing": filtre.at(9),
-                "BoredApi": filtre.at(10),
-                "HorosocApi": filtre.at(11)
-            },
-            "Leo": {
-                "PhraseSplashSelectSing": filtre.at(12),
-                "BoredApi": filtre.at(13),
-                "HorosocApi": filtre.at(14)
-            },
-            "Aquarius": {
-                "PhraseSplashSelectSing": filtre.at(15),
-                "BoredApi": filtre.at(16),
-                "HorosocApi": filtre.at(17)
-            },
-            "Cancer": {
-                "PhraseSplashSelectSing": filtre.at(18),
-                "BoredApi": filtre.at(19),
-                "HorosocApi": filtre.at(20)
-            },
-            "Gemini": {
-                "PhraseSplashSelectSing": hosrosTrasn.at(0),
-                "BoredApi": hosrosTrasn.at(1),
-                "HorosocApi": hosrosTrasn.at(2)
-            },
-            "Taurus": {
-                "PhraseSplashSelectSing": hosrosTrasn.at(3),
-                "BoredApi": hosrosTrasn.at(4),
-                "HorosocApi": hosrosTrasn.at(5)
-            },
-            "Capricorn": {
-                "PhraseSplashSelectSing": hosrosTrasn.at(6),
-                "BoredApi": hosrosTrasn.at(7),
-                "HorosocApi": hosrosTrasn.at(8)
-            },
-            "Libra": {
-                "PhraseSplashSelectSing": hosrosTrasn.at(9),
-                "BoredApi": hosrosTrasn.at(10),
-                "HorosocApi": hosrosTrasn.at(11)
-            },
-            "Virgo": {
-                "PhraseSplashSelectSing": hosrosTrasn.at(12),
-                "BoredApi": hosrosTrasn.at(13),
-                "HorosocApi": hosrosTrasn.at(14)
-            },
-            "Pisces": {
-                "PhraseSplashSelectSing": hosrosTrasn.at(15),
-                "BoredApi": hosrosTrasn.at(16),
-                "HorosocApi": hosrosTrasn.at(17)
-            },
-            "Sagittarius": {
-                "PhraseSplashSelectSing": hosrosTrasn.at(18),
-                "BoredApi": hosrosTrasn.at(19),
-                "HorosocApi": hosrosTrasn.at(20)
-            },
-            "Scorpio": {
-                "PhraseSplashSelectSing": hosrosTrasn.at(21),
-                "BoredApi": hosrosTrasn.at(22),
-                "HorosocApi": hosrosTrasn.at(23)
-            }
-
+        for (let i = 0; i < signArray.length; i++) {
+            const element = {
+                PhraseSplashSelectSing: hosrosTrasn.at(i*3),
+                BoredApi: hosrosTrasn.at(i*3 + 1),
+                HorosocApi: hosrosTrasn.at(i*3 + 2),
+            };
+            
+            d[signArray[i].trim()] = element;
         }
 
-        b.Horosoc = d; 
+        b.Horosoc = d;
         jsonData.Lenguages = jsonData.Lenguages.filter(language => language.Id !== idiom);
 
-        jsonData.Lenguages.push(b); 
-        console.log(idiom) 
+        jsonData.Lenguages.push(b);
+        console.log(idiom)
     };
-    
+
     // console.log("f")
     const json_horoscope = JSON.stringify(jsonData);
     fs.writeFileSync("src/resources/api.json", json_horoscope, "utf-8");
@@ -206,7 +149,7 @@ async function AsignarAPIs() {
         await Promise.all(promises);
 
         AsignarRandomYoutubeLinks();
-
+        jsonData.Lenguages = jsonData.Lenguages.filter(language => language.Id === "en");
         const json_horoscope = JSON.stringify(jsonData);
         fs.writeFileSync("src/resources/api.json", json_horoscope, "utf-8");
         console.log("APIS Asignadas")
@@ -215,16 +158,16 @@ async function AsignarAPIs() {
     }
 }
 
-function Asignar() {  
-    const json = fs.readFileSync("src/resources/api.json","utf-8")
+function Asignar() {
+    const json = fs.readFileSync("src/resources/api.json", "utf-8")
     jsonData = JSON.parse(json)
-    dateA =  jsonData.Date; 
-    dateB = new Date().toLocaleDateString() 
+    dateA = jsonData.Date;
+    dateB = new Date().toLocaleDateString()
 
     console.log(`Fechas Json 4 ${dateA} | Server ${dateB}`)
 
     if (dateA != dateB) {
-        AsignarAPIs().then(()=>{
+        AsignarAPIs().then(() => {
             TraducirIdiomas()
         })
     }
