@@ -209,6 +209,7 @@ async function AsignarAPIs() {
 
         const json_horoscope = JSON.stringify(jsonData);
         fs.writeFileSync("src/resources/api.json", json_horoscope, "utf-8");
+        console.log("APIS Asignadas")
     } catch (error) {
         console.error("Error:", error);
     }
@@ -217,15 +218,16 @@ async function AsignarAPIs() {
 function Asignar() {  
     const json = fs.readFileSync("src/resources/api.json","utf-8")
     jsonData = JSON.parse(json)
-
     dateA =  jsonData.Date; 
     dateB = new Date().toLocaleDateString() 
 
+    console.log(`Fechas Json 4 ${dateA} | Server ${dateB}`)
+
     if (dateA != dateB) {
-    
-        AsignarAPIs().then( 
-            TraducirIdiomas(),
-        )
+        AsignarAPIs().then(()=>{
+            TraducirIdiomas()
+        })
     }
 }
+
 export { Asignar }
